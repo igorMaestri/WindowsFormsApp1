@@ -46,17 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\OneDrive\Área de Trabalho\Trabalho02\Form1.cs">
+    <Compile Include="..\..\..\..\OneDrive\Área de Trabalho\Trabalho02_sist_sup\Form1.cs">
       <SubType>Form</SubType>
       <Link>Form1.cs</Link>
     </Compile>
-    <Compile Include="..\..\..\..\OneDrive\Área de Trabalho\Trabalho02\Form1.Designer.cs">
+    <Compile Include="..\..\..\..\OneDrive\Área de Trabalho\Trabalho02_sist_sup\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
       <Link>Form1.Designer.cs</Link>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="..\..\..\..\OneDrive\Área de Trabalho\Trabalho02\Form1.resx">
+    <EmbeddedResource Include="..\..\..\..\OneDrive\Área de Trabalho\Trabalho02_sist_sup\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
       <Link>Form1.resx</Link>
     </EmbeddedResource>
@@ -68,6 +68,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -81,6 +82,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capturarlll.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capturar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagem2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capturar11.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
